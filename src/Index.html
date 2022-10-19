@@ -1,0 +1,80 @@
+<html>
+    <body>
+        <head>
+            <style>
+                *{
+                    margin: 0;
+                    padding: 0;
+                     box-sizing: border-box;
+                }
+                 header{
+                    background-color: rgb(42, 42, 130);
+                    text-align: center;
+                    color: white;
+                    padding: 20px 0;
+
+                 }
+                 .lista-casdastro{
+                    display: flex;
+                    margin: 20px 0;
+                    padding: 0 20px;
+                 }
+                 .lista-casdastro input[type=text]{
+                    flex: 1;
+                    height: 40px;
+                    padding-left: 20px;
+                 }
+                .lista-produto-single{
+                    padding:10px 0;
+                    margin:20px 0;
+                    border-bottom:1px solid #ccc;
+                    display: flex;
+                }
+                .lista-produto-single h3{
+                    flex:1;
+                    padding:0 20px;
+                }
+                h3.price-produto{
+                    text-align: right; 
+                    font-size:17px;
+                }
+                
+                h3.price-produto > span{
+                    background-color: rgb(42, 42, 130);
+                    padding:8px 10px;
+                    border-radius: 20px;
+                    color: white;
+                }
+                .soma-produto{
+                    margin:20px;
+                    font-size: 15px;
+                }
+                
+            </style>
+        </head>
+       </body>
+
+        <header>
+            <h2>App lista de SuperMercado</h2>
+        </header>
+        <div class="lista-casdastro"> 
+            <input class="text" placeholder="nome do produto..."
+        name="nome do produto" />
+        <input type="text" placeholder="valor do produto..."
+        valor="valor do produto" />
+        <input  type="submit" name="acao" value="cadastrar" />
+        </div>
+
+        <div class="lista produtos">
+            
+          
+</div>
+<div class="soma-produto">
+    <h1>TOTAL R$0</h1>
+</div>
+    <button name= "Limpar"> Limpar</button>
+         <script src="supermercado.js">
+            
+         </script>
+    </body>
+</html>
